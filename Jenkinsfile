@@ -1,5 +1,5 @@
 // This shows a simple build wrapper example, using the AnsiColor plugin.
-node {
+node('ben') {
     // This displays colors using the 'xterm' ansi color map.
     ansiColor('xterm') {
         // Just some echoes to show the ANSI color.
